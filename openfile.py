@@ -7,4 +7,5 @@ x.close()
 
 #display added numbers in the file
 x = open("file1", "r")
-print (x.readlines()[-1])
+#print (x.readlines()[-1])
+print ("added last line in the file: = ", x.readlines()[-1])
