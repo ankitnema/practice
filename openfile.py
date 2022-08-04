@@ -2,7 +2,7 @@
 x = open("file1", "a")
 #x.write(input("enter the number to add in file :  ", "\n"))
 x.write("\n")
-x.write(input("enter the a number"))
+x.write(input("enter the a number:=   "))
 x.close()
 
 #display added numbers in the file
