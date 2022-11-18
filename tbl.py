@@ -2,7 +2,7 @@
 for row in range(1,11):
  for col in range(1,11):
   product = row*col
-  if product <10:
+  if product <=100:
    print ('',product,'',end=' ')
   else:
    print (product,'',end=' ')
